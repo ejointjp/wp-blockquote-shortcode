@@ -1,11 +1,13 @@
 <?php
 /*
 Plugin Name: WP Blockquote Shortcode
-Plugin URI: http://e-joint.jp/267/
+Plugin URI: http://e-joint.jp/works/wp-blockquote-shortcode/
 Description: It is a WordPress plugin that makes quotation easily with Shortcode.
-Version: 0.1.0
+Version: 0.1.1
 Author: e-JOINT.jp
 Author URI: http://e-joint.jp
+Text Domain: wp-blockquote-shortcode
+Domain Path: /languages
 License: GPL2
 */
 
@@ -29,12 +31,12 @@ class wp_blockquote_shortcode
 {
 
   private $options;
-  const VERSION = '0.1.0';
+  const VERSION = '0.1.1';
 
   public function __construct(){
 
     //翻訳ファイルの読み込み
-    load_plugin_textdomain('wp-blockquote-shortcode', false, basename(dirname(__FILE__)) . '/language');
+    load_plugin_textdomain('wp-blockquote-shortcode', false, basename(dirname(__FILE__)) . '/languages');
 
     //設定画面を追加
     add_action( 'admin_menu', array(&$this, 'add_plugin_page') );

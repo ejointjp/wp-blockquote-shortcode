@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Blockquote Shortcode v0.1.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2017-02-07 16:25+0900\n"
+"POT-Creation-Date: 2017-02-10 12:25+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: e-JOINT.jp <mail@e-joint.jp>\n"
@@ -24,37 +24,37 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: wp-blockquote-shortcode.php:57 wp-blockquote-shortcode.php:58
+#: wp-blockquote-shortcode.php:59 wp-blockquote-shortcode.php:60
 msgid "WP Blockquote"
 msgstr ""
 
-#: wp-blockquote-shortcode.php:88
+#: wp-blockquote-shortcode.php:90
 msgid "How to Use"
 msgstr "使い方"
 
-#: wp-blockquote-shortcode.php:89
+#: wp-blockquote-shortcode.php:91
 msgid ""
 "1. Please drag and drop the link (bookmarklet) below to the bookmark bar."
 msgstr ""
 "1. 下のリンク（ブックマークレット）をブラウザのブックマークバーにドラッグ&ド"
 "ロップしてください｡"
 
-#: wp-blockquote-shortcode.php:91
+#: wp-blockquote-shortcode.php:93
 msgid ""
 "2. Open the web page containing the statement you want to quote in a "
 "separate tab (another window)."
 msgstr ""
 "2. 引用したい文が掲載されているWebページを別タブ（別ウインドウ）で開きます｡"
 
-#: wp-blockquote-shortcode.php:92
+#: wp-blockquote-shortcode.php:94
 msgid "3. Drag the sentence you want to quote and select it."
 msgstr "3. 引用したい文をドラッグして選択します｡"
 
-#: wp-blockquote-shortcode.php:93
+#: wp-blockquote-shortcode.php:95
 msgid "4. With the sentence selected, click on the bookmarklet to execute it."
 msgstr "4. 文が選択された状態で､ブックマークレットをクリックして実行します｡"
 
-#: wp-blockquote-shortcode.php:94
+#: wp-blockquote-shortcode.php:96
 msgid ""
 "5. A short code will be displayed in the dialog box, please copy and paste "
 "it in the WordPress article."
@@ -62,13 +62,33 @@ msgstr ""
 "5. ダイアログボックスにショートコードが表示されます｡これをコピーして､"
 "WordPressの記事内にペーストしてください｡"
 
-#: wp-blockquote-shortcode.php:106
+#: wp-blockquote-shortcode.php:108
 msgid "Do not use default CSS"
 msgstr "デフォルトのCSSを使わない"
 
-#: wp-blockquote-shortcode.php:139
+#: wp-blockquote-shortcode.php:141
 msgid "Reference"
 msgstr "出典"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Blockquote Shortcode"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://e-joint.jp/works/wp-blockquote-shortcode/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "It is a WordPress plugin that makes quotation easily with Shortcode."
+msgstr "引用文をショートコードで簡単に作成できるWordPressプラグインです｡"
+
+#. Author of the plugin/theme
+msgid "e-JOINT.jp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://e-joint.jp"
+msgstr ""
 
 #~ msgid "4. Execute the bookmarklet with the sentence selected."
 #~ msgstr ""
