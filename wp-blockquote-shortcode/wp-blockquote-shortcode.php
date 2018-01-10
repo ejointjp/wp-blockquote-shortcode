@@ -119,10 +119,10 @@ class wp_blockquote_shortcode
 
     if(isset($this->options['nocss'])) {
       if ( !$this->options['nocss'] ) {
-        wp_enqueue_style( 'wpbq', plugins_url( 'css/wp-blockquote-shortcode.min.css', __FILE__ ), array(), null, 'all' );
+        wp_enqueue_style( 'wpbq', plugins_url( 'assets/css/wp-blockquote-shortcode.css', __FILE__ ), array(), null, 'all' );
       }
     } else {
-      wp_enqueue_style( 'wpbq', plugins_url( 'css/wp-blockquote-shortcode.min.css', __FILE__ ), array(), null, 'all' );
+      wp_enqueue_style( 'wpbq', plugins_url( 'assets/css/wp-blockquote-shortcode.css', __FILE__ ), array(), null, 'all' );
     }
   }
 
