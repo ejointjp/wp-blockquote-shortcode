@@ -3,8 +3,8 @@ Contributors: ejointjp
 Donate link:
 Tags: shortcode, quote, quotation, blockquote
 Requires at least: 4.0
-Tested up to: 4.7.2
-Stable tag: 0.1.1
+Tested up to: 4.9.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ Beautiful styles are provided by default, so you can use it without complicated 
 
 In conjunction with the quotation, we generate links to citation and source, these are obtained by bookmarklets.
 
-[Plugin page](http://e-joint.jp/works/wp-applink/)
+[Plugin page](http://e-joint.jp/works/wp-blockquote-shortcode/)
 
 ショートコードで簡単に引用文を作成するWordPressプラグインです｡
 
@@ -26,7 +26,7 @@ In conjunction with the quotation, we generate links to citation and source, the
 
 引用文に付随して､出典や出典元へのリンクを生成します｡これらはブックマークレットによって取得されます｡
 
-[プラグインページ](http://e-joint.jp/works/wp-applink/)
+[プラグインページ](http://e-joint.jp/works/wp-blockquote-shortcode/)
 
 [Github](https://github.com/ejointjp/wp-blockquote-shortcode)
 
@@ -69,6 +69,9 @@ An answer to that question.
 1. Quotation sample.
 
 == Changelog ==
+
+= 0.1.2 =
+* Update stylesheet.
 
 = 0.1.0 =
 * Initial release.

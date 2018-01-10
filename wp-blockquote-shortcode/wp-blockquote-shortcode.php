@@ -3,7 +3,7 @@
 Plugin Name: WP Blockquote Shortcode
 Plugin URI: http://e-joint.jp/works/wp-blockquote-shortcode/
 Description: It is a WordPress plugin that makes quotation easily with Shortcode.
-Version: 0.1.1
+Version: 0.1.2
 Author: e-JOINT.jp
 Author URI: http://e-joint.jp
 Text Domain: wp-blockquote-shortcode
@@ -31,7 +31,7 @@ class wp_blockquote_shortcode
 {
 
   private $options;
-  const VERSION = '0.1.1';
+  const VERSION = '0.1.2';
 
   public function __construct(){
 
@@ -134,12 +134,12 @@ class wp_blockquote_shortcode
     $parse = parse_url($uri);
     $domain = $parse['host'];
 
-    $html = '<blockquote class="wpbq">' . "\n";
-    $html .= '<div class="wpbq__content">' . "\n";
-    $html .= '<p>' . $text . '</p>' . "\n";
-    $html .= '</div>' . "\n";
-    $html .= '<p class="wpbq__cite"><cite>' . __('Reference', 'wp-blockquote-shortcode') . ': <a href="' . esc_url($uri) . '">' . $domain . '</a></cite></p>' . "\n";
-    $html .= '</blockquote>' . "\n";
+    $html = '<blockquote class="wpbq">';
+    $html .= '<div class="wpbq__content">';
+    $html .= '<p>' . $text . '</p>';
+    $html .= '</div>';
+    $html .= '<p class="wpbq__cite"><cite class="wpbq__cite__cite">' . __('Reference', 'wp-blockquote-shortcode') . ': <a class="wpbq__cite__a" href="' . esc_url($uri) . '">' . $domain . '</a></cite></p>';
+    $html .= '</blockquote>';
 
     return $html;
   }
