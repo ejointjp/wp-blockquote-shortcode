@@ -3,7 +3,7 @@
 Plugin Name: WP Blockquote Shortcode
 Plugin URI: http://e-joint.jp/works/wp-blockquote-shortcode/
 Description: It is a WordPress plugin that makes quotation easily with Shortcode.
-Version: 0.1.2
+Version: 0.2.0
 Author: e-JOINT.jp
 Author URI: http://e-joint.jp
 Text Domain: wp-blockquote-shortcode
@@ -31,7 +31,7 @@ class wp_blockquote_shortcode
 {
 
   private $options;
-  const VERSION = '0.1.2';
+  const VERSION = '0.2.0';
 
   public function __construct(){
 

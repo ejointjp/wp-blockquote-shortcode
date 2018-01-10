@@ -4,7 +4,7 @@ Donate link:
 Tags: shortcode, quote, quotation, blockquote
 Requires at least: 4.0
 Tested up to: 4.9.1
-Stable tag: 0.1.2
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,10 @@ An answer to that question.
 
 == Changelog ==
 
+= 0.2.0 =
+* Fix.
+* Change css and scss directories.
+
 = 0.1.2 =
 * Update stylesheet.
 
@@ -78,6 +82,15 @@ An answer to that question.
 
 == Upgrade notice ==
 
+= 0.2.0 =
+* Change css and scss directories.
 
+css/wp-blockquote-shortcode.css
+↓
+assets/css/wp-blockquote-shortcode.css
+
+scss/wp-blockquote-shortcode.scss
+↓
+assets/scss/wp-blockquote-shortcode.scss
 
 == Arbitrary section 1 ==

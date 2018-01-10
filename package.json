@@ -1,6 +1,6 @@
 {
   "name": "wp-blockquote-shortcode",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "",
   "scripts": {
     "test": "NODE_ENV=production node webpack.config",
